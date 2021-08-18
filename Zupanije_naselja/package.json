@@ -1,0 +1,21 @@
+{
+  "name": "zupanije",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "get-dependencies": "^1.1.0",
+    "mongodb": "^4.1.0",
+    "pug": "^3.0.2",
+    "pug-cli": "^1.0.0-alpha6",
+    "xlsx": "^0.17.0"
+  }
+}

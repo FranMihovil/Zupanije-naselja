@@ -1,0 +1,8 @@
+#hover-content{
+    display: none;
+}
+
+#wrapper:hover #hover-content{
+    display: block;
+    color:blue
+}

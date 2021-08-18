@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+    <body>
+        <title> <%= title %> </title>
+        <% for (let zup of zupanije) {  %>
+
+        <div id="wrapper" style="font-size: large; color: rgb(2, 2, 2); width: 200px; text-decoration: underline;"><%= zup %></button>
+                             
+                    <% for (let naselje of naselja) {  %>
+                        <% if (naselje.nazivZupanije === zup && naselje.nazivLokalneJedinice !== zup){  %>
+                        <div  id="hover-content">
+                            <p style="font-size: small;"><%= naselje.nazivLokalneJedinice %></p>
+                            <p style="font-size: small;"><%= naselje.brojStanovnika %></p>
+                        </div>
+                        <% } %>
+                    <% } %>
+                </div>
+                <% } %>
+    </body>
+    
+    </html>
