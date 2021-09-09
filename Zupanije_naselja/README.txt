@@ -1,5 +1,4 @@
-npm init ----> for installing dependencies
-or
+
 npm install get-dependencies --save  --> for installing dependencies
 node index.js  ---> for start
 
